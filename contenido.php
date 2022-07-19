@@ -15,7 +15,7 @@ echo("la sesión de direccion es ".$_SESSION['direccion']);
 
 <h2>Contenido privado</h2>
 
-<form method="post" action="contenido.php">
+<form method="post" action="http://localhost/sitiophpsession/contenido.php">
   <div class="mb-3">
     <label for="direccion" class="form-label">Dirección de envío</label>
     <input type="text" class="form-control" id="direccion" name="direccion">
@@ -35,7 +35,7 @@ echo("la sesión de direccion es ".$_SESSION['direccion']);
   <button type="submit" class="btn btn-primary">Añadir al carrito</button>
 </form>
 
-<a href="pago.php" class="btn btn-danger">Pagar</a>
+<a href="http://localhost/sitiophpsession/pago.php" class="btn btn-danger">Pagar</a>
 
 <?php
 include("footer.php")
